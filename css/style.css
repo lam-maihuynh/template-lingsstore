@@ -372,7 +372,8 @@ i.fa.fa-shopping-bag.top_logo_agile_bag {
     border: none;
     min-height: inherit;
     margin: 0;
-    float: left;
+	float: left;
+	
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background: none;
@@ -1539,7 +1540,7 @@ button.w3view-cart {
     padding: 0 10px 1px;
     position: absolute;
     top: 0;
-    z-index:99;
+    
 }
 .inner-men-cart-pro {
     height: 100%;
@@ -3532,10 +3533,7 @@ p.w3ls_para {
 	}
 }
 @media (max-width: 1080px){
-	.header-bot_inner_wthreeinfo_header_mid {
-		margin: 0 auto;
-		width: 95%;
-	}
+	
 	.box_1 h3 {
 		font-size: 15px;
 	}
@@ -4304,10 +4302,6 @@ p.w3ls_para {
 	.nav > li > a {
 		display: inline-block;
 	}	
-	.header-bot_inner_wthreeinfo_header_mid {
-		margin: 0 auto;
-		width: 96%;
-	}
 	ul.dropdown-menu.multi-column.columns-3 {
 		    border-top: 1px solid rgba(255, 255, 255, 0.09);
 		border-bottom: 1px solid #fff;
@@ -4367,6 +4361,7 @@ p.w3ls_para {
 	}
 	ul.nav.navbar-nav.menu__list {
 		padding-bottom: 20px;
+		
 	}
 	.close1, .close2, .close3, .close4 {
 		right: 36px;
