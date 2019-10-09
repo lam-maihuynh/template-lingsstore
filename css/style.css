@@ -169,16 +169,14 @@ a.pinterest .front {
 }
 
 .dangnhap {
-	
 }
 
 .dangnhap a {
 	color: #000;
 	font-weight: bold;
-}
-.dangnhap a:hover {
-	border: #080808;
+	border: #000;
 	border-style: solid;
+	border-width: 1px;
 }
 
 .model-3d-0 a:hover .back {
@@ -1916,6 +1914,15 @@ color: #545454;
 }
 /*-- //coupons --*/
 /*-- /about --*/
+.m-y-2 {
+}
+.profile-info h4 {
+	font-weight: bold;
+	margin: 3px;
+	letter-spacing: 0.1em;
+	margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+}
 .page-head_agile_info_w3l {
     background: url(../images/inner1.jpg) no-repeat center;
     background-size: cover;
