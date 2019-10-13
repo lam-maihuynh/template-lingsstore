@@ -5565,4 +5565,35 @@ p.w3ls_para {
       left: 68% !important;
     }
 }
+
+.na-slider img{
+	margin-top: 10px;
+	width:180px;
+	height:150px; 
+	object-fit: contain;
+}
+.na-slider p {
+	margin: 3px;
+}
+
+ul{
+	list-style: none outside none;
+	padding-left: 0;
+	margin: 0;
+}
+.demo .item{
+	margin-bottom: 60px;
+}
+.content-slider li{
+	background-color: white;
+	text-align: center;
+	color: black;
+}
+.content-slider h3 {
+	margin: 0;
+	padding: 70px 0;
+}
+.demo{
+	width: 800px;
+}
 /*-- //responsive media queries --*/

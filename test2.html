@@ -1,70 +1,110 @@
 <!doctype html>
 <html lang="en">
-  <head>
-	<title>Title</title>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<head>
+	<!--/tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Online shopping, order QuangChau, order taobao, shop order trung quoc" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+	<!--//tags -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css' />
+
+	<!-- //for bootstrap working -->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+	<link
+		href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic'
+		rel='stylesheet' type='text/css'>
+	<link type="text/css" rel="stylesheet" href="css/lightslider.css" />
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style-test.css">
-	<link rel="stylesheet"  href="css/lightslider.css"/>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="js/lightslider.js"></script>
 	<script>
-		$(document).ready(function() {
-		   $("#content-slider").lightSlider({
-			   loop:true,
-			   keyPress:true
-		   });
-		   $('#image-gallery').lightSlider({
-			   gallery:true,
-			   item:1,
-			   thumbItem:9,
-			   slideMargin: 0,
-			   speed:500,
-			   auto:true,
-			   loop:true,
-			   onSliderLoad: function() {
-				   $('#image-gallery').removeClass('cS-hidden');
-			   }  
-		   });
-	   });
-   </script>
-  </head>
-  <body>
-	
+		$(document).ready(function () {
+			$('#responsive').lightSlider({
+				item: 4,
+				loop: false,
+				slideMove: 2,
+				easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+				speed: 600,
+				responsive: [
+					{
+						breakpoint: 800,
+						settings: {
+							item: 3,
+							slideMove: 1,
+							slideMargin: 6,
+						}
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							item: 2,
+							slideMove: 1
+						}
+					}
+				]
+			});
+		});
+	</script>
+</head>
+
+<body>
 	<div class="item">
-		<ul id="content-slider" class="content-slider">
-			<li>
-				<h3>1</h3>
+		<ul id="responsive" class="content-slider na-slider">
+			<li><a href="mens.html">
+				<img src="/images/w1.jpg" alt="">
+				<p><b>ASSP-NET</b></p>
+				<p>DDoi</p>
+				<p>fgdfgdfgdfg</p>
+			</a>
 			</li>
 			<li>
-				<h3>2</h3>
+				<img src="/images/w3.jpg" alt="">
+				<p><b>ASSP-NET</b></p>
+				<p>DDoi</p>
+				<p>fgdfgdfgdfg</p>
 			</li>
 			<li>
-				<h3>3</h3>
+				<img src="/images/w2.jpg" alt="">
+				<p><b>ASSP-NET</b></p>
+				<p>DDoi</p>
+				<p>fgdfgdfgdfg</p>
 			</li>
 			<li>
-				<h3>4</h3>
+				<img src="/images/w4.jpg" alt="">
+				<p><b>ASSP-NET</b></p>
+				<p>DDoi</p>
+				<p>fgdfgdfgdfg</p>
 			</li>
 			<li>
+				<img src="/images/w1.jpg" alt="">
 				<h3>5</h3>
 			</li>
 			<li>
+				<img src="/images/w1.jpg" alt="">
 				<h3>6</h3>
+			</li>
+			<li>
+				<img src="/images/w1.jpg" alt="">
+				<h3>7</h3>
+			</li>
+			<li>
+				<img src="/images/w1.jpg" alt="">
+				<h3>8</h3>
 			</li>
 		</ul>
 	</div>
-
-</div>		  
+	</div>
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+
+
+</body>
+
 </html>
-
-
