@@ -572,7 +572,8 @@ a.simpleCart_empty {
 	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner1.jpg) no-repeat;
 	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner1.jpg) no-repeat; 
 	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner1.jpg) no-repeat;
-	background-size:cover;	 
+	background-size:cover;
+	margin-bottom: 30px;	 
 }
 .carousel .item.item2{   
 	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner2.jpg) no-repeat;
@@ -716,6 +717,23 @@ a.simpleCart_empty {
     color: #fff;
     line-height: 2em;
     font-size: 1.1em;
+}
+
+.multi-gd-text {
+	margin-bottom: 20px;
+}
+.multi-gd-text p {
+	width: 17%;
+	position: absolute;
+	left: 5%;
+	bottom: 5%;
+	letter-spacing: 12px;
+    color: #000;
+    line-height: 2em;
+	font-size: 1.1em;
+	border-style: solid;
+	padding: 15px;
+	font-weight: bold;
 }
 
 figure.effect-roxy img {
@@ -1150,7 +1168,9 @@ button.close.top_wthree_agile {
 
 /*-- schedule-bottom --*/
 .schedule-bottom {
-    background: #2fdab8;
+	background: #2fdab8;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .agileits_schedule_bottom_right,.agileinfo_schedule_bottom_left {
     padding: 0;
@@ -1161,7 +1181,7 @@ button.close.top_wthree_agile {
 .w3ls_schedule_bottom_right_grid{
     padding: 3em 2em;
     background: #fff;
-    margin: 6.5em 0 0;
+    margin: 6em 0 6em;
     width: 90%;
     box-shadow: 5px 0px 10px #19a98c;
 
@@ -1198,9 +1218,11 @@ button.close.top_wthree_agile {
 	letter-spacing: 2px;
 }
 .w3l_schedule_bottom_right_grid1 h5{
-	font-size:2em;
-	color:#212121;
-	font-weight:600;
+	text-transform: uppercase;
+    font-size: 1.4em;
+    color: #212121;
+    letter-spacing: 2px;
+    font-weight: 500;
 }
 h3.wthree_text_info {
     font-size: 2.5em;
@@ -5566,16 +5588,22 @@ p.w3ls_para {
     }
 }
 
-.na-slider img{
+.content-slider img{
 	margin-top: 10px;
-	width:180px;
-	height:150px; 
 	object-fit: contain;
+	
 }
-.na-slider p {
-	margin: 3px;
+.content-slider a {
+	text-transform: uppercase;
+    font-size: 1em;
+    color: #212121;
+    letter-spacing: 1px;
+    font-weight: 100;
 }
-
+.content-slider a:hover {
+	color: black;
+	font-weight: bold;
+}
 ul{
 	list-style: none outside none;
 	padding-left: 0;
@@ -5584,16 +5612,20 @@ ul{
 .demo .item{
 	margin-bottom: 60px;
 }
+.content-slider {
+	height: 380px;
+}
+
 .content-slider li{
+	
 	background-color: white;
 	text-align: center;
 	color: black;
+	height: 380px;
 }
 .content-slider h3 {
 	margin: 0;
 	padding: 70px 0;
 }
-.demo{
-	width: 800px;
-}
+
 /*-- //responsive media queries --*/
