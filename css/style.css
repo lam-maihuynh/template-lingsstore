@@ -4322,6 +4322,10 @@ p.w3ls_para {
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #FFF;
 	}
+	.icon-bar2 {
+		background-color: #000;
+	}
+
 	.navbar-nav > li {
 		margin: 0 0px 0 0;
 		width: 100%;
